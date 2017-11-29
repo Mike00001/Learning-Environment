@@ -1,0 +1,152 @@
+@keyframes moncarré{
+    0%{
+        width: 100px;
+    height: 100px;
+    background: red;
+    }
+    5%{ margin-left: 80px;
+        width: 150px;
+    height: 100px;
+    background: blue;}
+    
+    10%{ margin-left: 90px;
+        width: 100px;
+    height: 150px;
+    background: red;}
+    
+    15%{ margin-left: 95px;
+        width: 115px;
+    height: 150px;
+    background: yellow;}
+    
+    20%{ margin-left: 110px;
+        width: 100px;
+    height: 150px;
+    background: blue;}
+    
+    25%{
+        margin-left: 120px;
+        width: 150px;
+    height: 100px;
+    background: red;
+    }
+    30%{
+        margin-left: 120px;
+        width: 150px;
+    height: 100px;
+    background: blue;
+    }
+    
+    35%{
+        margin-left: 130px;
+        width: 200px;
+    height: 150px;
+    background: red;
+    }
+    50%{
+        margin-left: 200px;
+        width: 100px;
+    height: 100px;
+    background: red;
+    }
+    
+    75%{
+        margin-left: 300px;
+        width: 150px;
+    height: 100px;
+    background: blue;
+    }
+    
+    100%{
+        margin-left: 400px;
+        width: 100px;
+    height: 100px;
+    background: red;
+    }
+    
+    70%{
+        margin-left: 300px;
+        width: 150px;
+    height: 100px;
+    background: blue;
+    }
+    80%{
+        margin-left: 300px;
+        width: 150px;
+    height: 100px;
+    background: red;
+    }
+    85%{
+        margin-left: 300px;
+        width: 150px;
+    height: 100px;
+    background: blue;
+    }
+    90%{
+        margin-left: 300px;
+        width: 150px;
+    height: 100px;
+    background: red;
+    }
+    100%{
+        margin-left: 300px;
+        width: 150px;
+    height: 100px;
+    background: blue;
+    }
+    92%{
+        margin-left: 300px;
+        width: 150px;
+    height: 100px;
+    background: red;
+    }
+    52%{
+        margin-left: 300px;
+        width: 150px;
+    height: 100px;
+    background: blue;
+    }
+    10%{
+        margin-left: 300px;
+        width: 150px;
+    height: 100px;
+    background: red;
+    }
+    24%{
+        margin-left: 300px;
+        width: 150px;
+    height: 100px;
+    background: blue;
+    }
+    37%{
+        margin-left: 400px;
+        width: 150px;
+    height: 100px;
+    background: red;
+    }
+    1%{
+        margin-left: 300px;
+        width: 150px;
+    height: 100px;
+    background: blue;
+    }
+}
+
+
+
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    background: lightgrey;
+}
+
+
+.carre{
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-name: moncarré;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+}

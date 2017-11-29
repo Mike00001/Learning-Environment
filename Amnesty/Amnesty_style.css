@@ -1,0 +1,57 @@
+html{
+    
+}
+body {background-color: black; color: aliceblue;}
+
+.social li img{
+    height: 50px;
+    display: inline-block;
+    float: left;
+    margin: 20px;
+    
+}
+
+ li{
+ list-style-type: none;
+
+}
+
+
+
+.dons img{
+    height: 100px;
+    float: right;
+    margin-right: 50px;
+}
+
+.baniere img {
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid aliceblue;
+}
+
+.text{
+    width: 600px;
+    float: left;
+    text-align:justify;
+    margin-left: 20px;
+    
+}
+
+.video{
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+    margin-top: 90px;
+}
+
+.autre{
+    margin-bottom: 0px;
+}
+
+
+.autres li{
+    display: inline-block;
+    float:right;
+    
+}
