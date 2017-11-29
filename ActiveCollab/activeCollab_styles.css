@@ -8,10 +8,6 @@ body{
 header{
     display: flex;
     
-    
-    
-    
-    
 }
 
 header{
@@ -132,11 +128,130 @@ h1{
 /*TEXT ET BUTTON*/
 
 
+.centre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e9edf2;
+}
+
+.centre p{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0;
+    padding-top: 3%;
+    text-align: justify
+}
+
+.centre button{
+    width: 19%;
+    height: 55px;
+    background-color: #33b2e0;
+    border-radius: 5px;
+    color: white;
+    margin-top: 3%;
+    margin-bottom:-10px
+}
+
+.centre h3{
+    font-size: 15px;
+}
+
+.centre img{
+    width: 60%;
+    margin-top: 5%
+}
+
+
+/*ON CLOUD...*/
+
+.cloud{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cloud h2{
+    margin-top: 5%;
+    
+}
+
+
+/*TARIF*/
+
+.tarif{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.tarif article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+    
+}
+
+.tarif p{
+    width: 50%;
+    
+    
+}
+
+
+.gauche{
+    margin-left: 30%;
+    border-right: 1px solid black;
+    
+}
+
+.droite{
+    margin-right: 30%;
+    
+}
+
+
+/*WHO'S USING...*/
+
+
+.who{
+    width: 100%;
+    height: 350px;
+    background-color: #e9edf2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.who h2{
+    margin-top: 7%;
+}
+
+.who article{
+    width: 100%
+}
+
+.who p{
+    width: 40%;
+    text-align: justify;
+}
+
+
+
+/*FORM*/
 
 
 
 
 
+/*FOOTER*/
 
 
 
