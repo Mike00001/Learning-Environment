@@ -293,20 +293,33 @@ footer h1
     color: #760001;
 }
 
+@media all and(max-with:1024px) {
+    body{
+         background-image: none;
+    }
+}
+
 @media all and (max-with:1024px){
     #bloc_page{
         width: auto;
+       
     }
 }
 
 @media all and (max-width: 1024px){
     nav{
         width: auto;
-        text-align: left;
+        display: flex;
+        flex-direction: row;
+         
+        
+        
         
     }
     nav ul{
         flex-direction: column;
+        text-align: center;
+        
     }
     
     nav li {
@@ -315,6 +328,7 @@ footer h1
     
     nav a{
         font-size: 1.1em;
+        
     }
     
     nav a:hover{
@@ -337,6 +351,7 @@ footer h1
         width: auto;
         margin-bottom: 15px;
         
+        
     }
     #fleche_bulle{
         display: none;
@@ -350,10 +365,12 @@ footer h1
     
     aside p:last-child{
         text-align: center;
+        margin-top: 6%
     }
-}
+    
+     .text {
+        display: none;
+    
+    }
+}   
 
-@media all and (max-width: 1024px){
-    
-    
-}
